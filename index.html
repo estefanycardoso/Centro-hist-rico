@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/img3.png">
+    <title>Centro Histórico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu com logo e três campos para link -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Centro Histórico">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="#historia">História</a></li>
+                <li><a href="#cultura">Cultura</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Imagem de fundo -->
+    <section class="background-image">
+    </section>
+
+    <!-- Barra de pesquisa -->
+    <section class="search-section">
+        <form class="search-form" id="search-form">
+            <input type="text" id="search-input" class="search-input" placeholder="Pesquisar pontos históricos..." />
+            <button type="submit" class="search-button">Pesquisar</button>
+        </form>
+    </section>
+
+    <!-- Cards Dinâmicos -->
+    <section class="cards" id="cards-section">
+        <!-- Conteúdo dos cards será carregado dinamicamente via dados.js e app.js -->
+    </section>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
